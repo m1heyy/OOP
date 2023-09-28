@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Бадминтон</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Хотите поиграть в бадминтон?</h1>
+        <label for="day">Выберите день недели:</label>
+        <select id="day">
+            <option value="Sunday">Воскресенье</option>
+            <option value="Monday">Понедельник</option>
+            <option value="Tuesday">Вторник</option>
+            <option value="Wednesday">Среда</option>
+            <option value="Thursday">Четверг</option>
+            <option value="Friday">Пятница</option>
+            <option value="Saturday">Суббота</option>
+        </select>
+        
+        <label for="weather">Выберите погодные условия:</label>
+        <select id="weather">
+            <option value="sunny">Жарко и ясно</option>
+            <option value="Windy and cloudy">Ветренно и пасмурно</option>
+            <option value="Small rain">Небольшой дождь</option>
+            <option value="Cold and windless">Холодно и безветренно</option>
+            <option value="Cool and clear">Прохладно и ясно</option>
+        </select>
+
+        <button onclick="decide()">Принять решение</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
